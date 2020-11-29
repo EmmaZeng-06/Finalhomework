@@ -1,0 +1,53 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+.card {
+	border-radius: 10px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+#center {
+	margin:0 auto;
+}
+
+#top_card {
+	min-height: 450px;
+	/*background-color: blue;*/
+	padding: 25px;
+	background-image: url("icons/clear.jpg");
+	background-size: cover;
+	/*color: #FFFFFF;*/
+	
+}
+#bottom_card {
+	background-color: #EEEEEE;
+	text-align: center;
+	font-size: 120%;
+}
+
+#temp {
+	font-size: 500%;
+}
+
+#temp_info {
+	font-size: 130%;
+}
+
+#CtoF, #date, #forecast {
+	font-size: 120%;
+}
+#celsius:hover, #fahrenheit:hover {
+	cursor: pointer;
+}
+
+#day1, #day2, #day3, #day4, #day5 {
+	border-right: 2px solid #DDDDDD;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
